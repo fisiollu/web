@@ -4,7 +4,7 @@ const icons = [
   { icon: FaPhoneSquare, url: 'tel:34687130067' },
   {
     icon: FaWhatsappSquare,
-    url: 'https://wa.me/34687130067/?texto=Buenas%20tardes,%20quería%20pedir%20una%20cita%20para%20el%20día…',
+    url: 'https://wa.me/34687130067/?text=Buenas%20tardes%2C%20quer%C3%ADa%20pedir%20una%20cita%20para%20el%20d%C3%ADa%E2%80%A6',
   },
 ]
 
@@ -24,11 +24,7 @@ export function Footer() {
           <div className="flex justify-center space-x-4 sm:space-x-6">
             {icons.map((Icon, i) => {
               return (
-                <Activelink
-                  key={i}
-                  href={Icon.url}
-                  className="flex rounded-full text-gray-400 text-3xl"
-                >
+                <Activelink key={i} href={Icon.url} className="flex rounded-full text-gray-400 text-3xl">
                   <a>
                     <Icon.icon />
                   </a>
