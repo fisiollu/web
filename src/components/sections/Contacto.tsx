@@ -81,9 +81,9 @@ export default function Contacto({ name }) {
             </a>
             <a
               className="w-full rounded bg-bluedark py-2 text-center text-xs uppercase text-white sm:text-base md:col-span-4"
-              href="mailto:fisioluxurypozuelo@gmail.com"
+              href="mailto:fisioluxury@gmail.com"
             >
-              fisioluxurypozuelo@gmail.com
+              fisioluxury@gmail.com
             </a>
           </div>
           <Form handle={handleForm} submit={submitHandle} {...config}>

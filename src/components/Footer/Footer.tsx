@@ -1,7 +1,11 @@
-import { LuMail, LuPhone } from 'react-icons/lu'
+import { FaWhatsappSquare, FaPhoneSquare, FaEnvelopeSquare } from 'react-icons/fa'
 const icons = [
-  { icon: LuMail, url: 'mailto:fisioluxurypozuelo@gmail.com' },
-  { icon: LuPhone, url: 'tel:34687130067' },
+  { icon: FaEnvelopeSquare, url: 'mailto:fisioluxury@gmail.com' },
+  { icon: FaPhoneSquare, url: 'tel:34687130067' },
+  {
+    icon: FaWhatsappSquare,
+    url: 'https://wa.me/34687130067/?texto=Buenas%20tardes,%20quería%20pedir%20una%20cita%20para%20el%20día…',
+  },
 ]
 
 import Activelink from '../Activelink/Activelink'
@@ -23,7 +27,7 @@ export function Footer() {
                 <Activelink
                   key={i}
                   href={Icon.url}
-                  className="flex rounded-full border border-solid border-gray-400 p-1.5 text-gray-500 hover:text-gray-900"
+                  className="flex rounded-full text-gray-400 text-3xl"
                 >
                   <a>
                     <Icon.icon />
