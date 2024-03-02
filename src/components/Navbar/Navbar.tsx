@@ -32,7 +32,7 @@ const NavBar = () => {
                   setSection(e.name)
                 }}
                 key={i}
-                className={`bg-transparent text-xs text-gray-500 hover:text-gray-900 sm:text-sm ${
+                className={`bg-transparent text-xs text-gray-500 hover:text-gray-900 sm:px-2 px-0.5 sm:text-sm ${
                   e.name === section ? 'text-gray-900' : 'text-gray-500'
                 }`}
               >

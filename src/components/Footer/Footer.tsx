@@ -16,7 +16,7 @@ export function Footer() {
       <div className="mx-auto p-4">
         <div className="flex items-center justify-between">
           <span className="text-xs text-gray-500 sm:text-center md:text-sm">
-            © 2023{' '}
+            © 2024{' '}
             <Activelink href="/" className="text-gray-500 hover:text-gray-900">
               <a>Fisioluxury</a>
             </Activelink>
