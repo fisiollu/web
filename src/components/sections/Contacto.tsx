@@ -58,6 +58,8 @@ export default function Contacto({ name }) {
       /** exito */
       setSend(true)
       setLoading(false)
+    } else {
+      alert('Error, contacte mediante telefono.')
     }
   }
 
